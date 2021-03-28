@@ -1,0 +1,19 @@
+name: chatty_widget
+description: A Flutter widget that shows message on tap.
+version: 0.0.1
+author: Hyobin Yang <hyobbb11@gmail.com>
+homepage: https://github.com/hyobbb/table_calendar
+
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
