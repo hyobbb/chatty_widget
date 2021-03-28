@@ -1,14 +1,28 @@
 # chatty_widget
 
-A new Flutter package project.
+A Flutter widget that shows message on tap event.
 
-## Getting Started
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+## Installation
+In your `pubspec.yaml` root add:
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+```yaml
+dependencies:
+  chatty_widget: LATEST_VERSION_NUMBER
+```
+
+on use,
+
+`import 'package:chatty_widget/chatty_widget.dart';`
+
+
+## Demo
+
+Wrap any widget and put your message to show like this:
+![gif of project](https://raw.githubusercontent.com/hyobbb/chatty_widget/master/chatty_widget_demo.gif)
+
+
+## Limit
+
+Do Not use widgets like Buttons that has their own onTap callback function.
+Instead, just use onTap method to execute additional method while showing the chat box.
