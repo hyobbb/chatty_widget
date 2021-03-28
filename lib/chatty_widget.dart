@@ -41,7 +41,7 @@ class ChattyWidget extends StatefulWidget {
   final Color chatBoxStrokeColor;
 
   //additional callback function to execute on tap
-  VoidCallback? onTap;
+  final VoidCallback? onTap;
 
   ChattyWidget({
     required this.child,

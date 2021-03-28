@@ -22,5 +22,5 @@ on use,
 
 ## Limit
 
-Do Not use widgets like Buttons that has their own onTap callback function.
+Do Not use widgets like Buttons that has their own onTap callback function. It will be ignored.
 Instead, just use onTap method to execute additional method while showing the chat box.
