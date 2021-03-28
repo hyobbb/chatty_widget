@@ -13,7 +13,22 @@ dependencies:
 
 on use,
 
-`import 'package:chatty_widget/chatty_widget.dart';`
+
+```dart
+import 'package:chatty_widget/chatty_widget.dart';
+
+ChattyWidget(
+  child: Icon(Icons.add),
+  text: 'This is Add Icon',
+  textStyle: TextStyle(color: Colors.white),
+  textBoxColor: Colors.black,
+  chatBoxLocation: BoxLocation.Top,
+  chatBoxWidth: 100,
+  onTap: () {
+    print('do something');
+  },
+)
+```
 
 
 ## Demo
