@@ -19,8 +19,7 @@ on use,
 ## Demo
 
 Wrap any widget and put your message to show like this:
-![gif of project](https://raw.githubusercontent.com/hyobbb/chatty_widget/master/chatty_widget_demo.gif)
-<img src="https://raw.githubusercontent.com/hyobbb/chatty_widget/master/chatty_widget_demo.gif" width="200" />
+<img src="https://raw.githubusercontent.com/hyobbb/chatty_widget/master/chatty_widget_demo.gif" width="250" />
 
 ## Limit
 
