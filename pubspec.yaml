@@ -1,7 +1,6 @@
 name: chatty_widget
 description: A Flutter widget that shows message on tap.
 version: 0.0.1
-author: Hyobin Yang <hyobbb11@gmail.com>
 homepage: https://github.com/hyobbb/chatty_widget
 
 
